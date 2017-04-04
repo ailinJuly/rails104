@@ -1,4 +1,4 @@
 class Group < ApplicationRecord
   validates :title, presence: true
-  belongs to :user
+  belongs_to :user
 end
